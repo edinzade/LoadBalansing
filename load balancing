@@ -1,0 +1,16 @@
+What is load balancing?
+A load balancer is a device that distributes network or application traffic across a cluster of servers. Load balancing improves responsiveness and increases availability of applications.
+A load balancer sits between the client and the server farm accepting incoming network and application traffic and distributing the traffic across multiple backend servers using various methods. By balancing application requests across multiple servers, a load balancer reduces individual server load and prevents any one application server from becoming a single point of failure, thus improving overall application availability and responsiveness.
+
+
+Load balancing is the most straightforward method of scaling out an application server infrastructure. As application demand increases, new servers can be easily added to the resource pool, and the load balancer will immediately begin sending traffic to the new server. Core load balancing capabilities include:
+Layer 4 (L4) load balancing - the ability to direct traffic based on data from network and transport layer protocols, such as IP address and TCP port
+Layer 7 (L7) load balancing and content switching – the ability to make routing decisions based on application layer data and attributes, such as HTTP header, uniform resource identifier, SSL session ID and HTML form data
+Global server load balancing (GSLB) - extends the core L4 and L7 capabilities so that they are applicable across geographically distributed server farms
+
+
+How do load balancers work?
+When one application server becomes unavailable, the load balancer directs all new application requests to other available servers in the pool.
+To handle more advanced application delivery requirements, an application delivery controller (ADC) is used to improve the performance, security and resiliency of applications delivered to the web. An ADC is not only a load balancer, but a platform for delivering networks, applications and mobile services in the fastest, safest and most consistent manner, regardless of where, when and how they are accessed.
+Application Delivery Controller (ADC) architecture diagram
+
